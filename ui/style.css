@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+}
+
+#spawn-container {
+  margin: auto;
+  background-color: #212121;
+  display: block;
+}
+
+#spawn-bar-text {
+  color: white;
+  margin: 0;
+}
+
+.card-own {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  margin: 2em 1em;
+}
