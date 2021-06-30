@@ -9,7 +9,7 @@ body {
 #spawn-container {
   margin: auto;
   background-color: #212121;
-  display: block;
+  display: none;
 }
 
 #spawn-bar-text {

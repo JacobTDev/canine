@@ -1,0 +1,3 @@
+TODO: Add combat peds
+TODO: Fix finding entities when aiming
+TODO: Enter vehicle without teleporting (maybe we want it to teleport?)
