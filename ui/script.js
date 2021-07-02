@@ -7,7 +7,6 @@ const spawnRetriever = document.querySelector("#spawn-retriever");
 window.addEventListener("message", (e) => {
   if (e.data.open) {
     spawnMenu.style.display = "block";
-    console.log("hiwdawdawjdk hawd jawd hadwjaw dhawj dk")
   } else {
     actuallyCloseMenus();
   }

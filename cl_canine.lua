@@ -140,6 +140,7 @@ function canineCreate(name, canineType)
     local weaponHash = GetHashKey("WEAPON_ANIMAL") 
     GiveWeaponToPed(canine.entity, weaponHash, 200, true, true);
 
+    SetBlockingOfNonTemporaryEvents(canine.entity, true)
     SetPedCombatMovement(canine.entity, 2)
     SetPedCombatAttributes(canine.entity, 5, true)
     SetPedCombatAttributes(canine.entity, 46, true)
